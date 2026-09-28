@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd64317b706917b48bef9f5d61a50129, type: 3}
+  m_Name: VfxConfig
+  m_EditorClassIdentifier: ZombieCar.Runtime::ZombieCar.Configs.VfxConfig
+  _entries:
+  - _type: 0
+    _prefab: {fileID: 422101056368102158, guid: 14456d5c129735e479b2c5cab4da00a5, type: 3}
+    _prewarmCount: 6
+  - _type: 1
+    _prefab: {fileID: 4526183816168394493, guid: b80ff9a39e3708e42a48cc6499400250, type: 3}
+    _prewarmCount: 8
+  - _type: 2
+    _prefab: {fileID: 4034446114479743778, guid: c3623c72ce59cbc4f90578b0fb904a3b, type: 3}
+    _prewarmCount: 8
+  - _type: 3
+    _prefab: {fileID: 4034446114479743778, guid: c3623c72ce59cbc4f90578b0fb904a3b, type: 3}
+    _prewarmCount: 6
+  - _type: 4
+    _prefab: {fileID: 0}
+    _prewarmCount: 4
+  - _type: 5
+    _prefab: {fileID: 0}
+    _prewarmCount: 1

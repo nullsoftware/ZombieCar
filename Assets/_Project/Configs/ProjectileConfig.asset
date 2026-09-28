@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb6ae3b1fb0b194ebc0f00e8a18fcc1, type: 3}
+  m_Name: ProjectileConfig
+  m_EditorClassIdentifier: ZombieCar.Runtime::ZombieCar.Configs.ProjectileConfig
+  _prefab: {fileID: 4957584176960394287, guid: 8c79aa6b1d21b4b4a9901cb8ef7d0765, type: 3}
+  _prewarmCount: 24
+  _speed: 45
+  _lifetime: 1.2
+  _radius: 0.2
+  _hitMask:
+    serializedVersion: 2
+    m_Bits: 257
+  _damage: 25
