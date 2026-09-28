@@ -18,6 +18,7 @@ namespace ZombieCar.GameFlow
 
         public async UniTask StartAsync(CancellationToken cancellation = default)
         {
+            // REMARK: cancellation means the scope was destroyed (scene unload / exit play mode), so it is not an error.
             await _stateMachine.RunAsync(GameStateId.Ready, cancellation).SuppressCancellationThrow();
         }
     }
